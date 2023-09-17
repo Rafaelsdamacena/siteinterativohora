@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="body">
+<body class="body" onload="carregar()">
     <header class="header">
-        <h1> BOM DIA!!!</h1>
+        <h1 id="msg"> BOM DIA!!!</h1>
 
     </header>
     <section class="section">
         <div id="image">
-            <img src="img/dia.jpg">
+            <img src="img/dia.jpg" id="img">
         </div>
         <div id=" hour">
-            <h2>12:00:00</h2>
+            <h2 id="time">12:00:00</h2>
         </div>
     </section>
     <footer class="footer">
@@ -26,4 +26,5 @@
     </footer>
     
 </body>
+<script src="script.js"></script>
 </html>
